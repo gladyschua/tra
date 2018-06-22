@@ -1,0 +1,118 @@
+<!DOCTYPE html> 
+<html lang="en">
+	<head>
+        <meta charset="UTF-8">
+        
+        <!-- 
+            * sets the width of the page to follow the screen-width of the device 
+            * sets the initial zoom level when the page
+            -->
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+        
+        <title>Tilly's Reef Adventure</title>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+
+    <body>
+        <div class="page-wrap">
+			
+            <a href="#content">
+                <header role="banner" class="banner">
+                    <img id="banner-logo" src="img/tillysreefadventure/logo-banner.png" alt="Tilly's Reef Adventure banner logo">
+                    <!--<img src="img/icons8-chevron-down-100.png">-->
+                </header>
+            </a>
+        
+            <section id="content">
+            <nav role="navigation" class="global" >
+                <a href="index.html"><img id="banner-logo-nav" src="img/tillysreefadventure/logo-banner.png" alt="Tilly's Reef Adventure banner logo"></a>
+                <ul>
+                    <li id="home"><a href="index.html">Home</a></li>
+                    <li><a href="story.html">Story</a>
+                        <ul class="dropdown">
+                            <li><a href="story-coastal-birth.html">Tilly's Coastal birth</a></li>
+                            <li><a href="story-reef-adventure.html">Tilly's Reef Adventure</a></li>
+                            <li><a href="story-coastal-rescue.html">Tilly's Coastal Rescue</a></li>
+                        </ul>
+                    </li>
+                   
+                    <!--    spacer hack   --> 
+                    <li class="spacer"></li>
+                    <li class="spacer"></li>
+
+                    <li class="active"><a class="active" href="characters.html">Characters</a></li>
+                    <li><a href="resources.html">Resources</a></li>
+                </ul>
+            </nav>    
+             
+            <main class="card wildcard">
+                <a class="cards wildcard 1">
+                    <header class="wildcard">
+                        <h3>Guess the animal</h3>
+                    </header>
+                    <figure id="seaturtle" class="thumb wildcard"></figure>
+                    <p>Growing up, I feed mostly on sea jellies & crustaceans- as an adult, I am largely herbivorous! I feed on the spoon seagrass a lot. I am listed as 'Endangered' under the IUCN Red List.</p>
+                    <article class="desc 1">
+                        <p>What am I?</p>
+                        <p>If you'd guessed the Green Sea Turtle, you are right!</p>
+                    </article> 
+                </a>
+                <section class="show-desc-popup">
+                </section>
+
+                <a class="cards wildcard 2">
+                    <header class="wildcard">
+                        <h3>Guess the animal</h3>
+                    </header>
+                    <figure id="seahorse" class="thumb wildcard"></figure>
+                    <p>Unlike most fish, I have bony plates instead of scales... I am also a cryptic species, meaning you'll have to look hard to spot me. Oh, & for my kind, the males carry the babies!</p>
+                    <article class="desc 2">
+                        <p>What am I?</p>
+                        <p>If you'd guessed the Seahorse, you are right!</p>
+                    </article>
+                </a>
+                <section class="show-desc-popup">
+                </section>
+                                
+                <a class="cards wildcard 3">
+                    <header class="wildcard">
+                        <h3>Guess the animal</h3>
+                    </header>
+                    <figure id="octopus" class="thumb wildcard"></figure>
+                    <p>I have 8 arms, 3 hearts, 9 brains, & blue blood. My burrow entrance, often termed the 'garden', can be found adorned with shells & coral rubble. I am also a master of disguise!</p>
+                    <article class="desc 3">
+                        <p>What am I?</p>
+                        <p>If you'd guessed the Day Octopus, you are right!</p>
+                    </article>
+                </a>
+                <section class="show-desc-popup">
+                </section>
+    
+                </main>
+            <footer>
+                <img src="img/cc-by-nc-sa.jpg" alt="Creative Commons Attribution Non-commercial Share Alike">
+                <nav class="footer">
+                    <ul>
+                        <li><a href="https://www.rhondasart.com.au/pages/about-us">About the Author</a></li>
+                        <li><a href="credits.html">Credits</a></li>
+                        <!--sa href="https://icons8.com">Icon pack by Icons8</a>
+                        -->
+                    </ul>
+                </nav>
+            </footer>
+        </section>
+        </div> <!--page wrap end tag-->
+        
+        <!-- particles.js lib - https://github.com/VincentGarreau/particles.js --> 
+        <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+        <div id="particles-js"></div> <!-- particles.js container -->
+        
+        <script src="js/jquery-3.3.1.min.js"></script>
+        
+        <!--https://zengabor.github.io/zenscroll/#license-->
+        <script src="js/zenscroll-min.js"></script>
+           
+        <script src="js/script.js"></script>
+    </body>
+</html>

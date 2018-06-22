@@ -1,0 +1,149 @@
+<!DOCTYPE html> 
+<html lang="en">
+	<head>
+        <meta charset="UTF-8">
+        
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+        <!-- 
+            * sets the width of the page to follow the screen-width of the device 
+            * sets the initial zoom level when the page
+            -->
+        
+        <title>Tilly's Reef Adventure</title>
+        <link href="https://fonts.googleapis.com/css?family=Raleway:100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <div class="page-wrap">
+
+            <a href="#content">
+                <header role="banner" class="banner">
+                    <img id="banner-logo" src="img/tillysreefadventure/logo-banner.png" alt="Tilly's Reef Adventure banner logo">
+                </header>
+            </a>
+            
+            
+            <section id="content">
+                <nav role="navigation" class="global" >
+                    <a href="index.html"><img id="banner-logo-nav" src="img/tillysreefadventure/logo-banner.png" alt="Tilly's Reef Adventure banner logo"></a>
+                    <ul>
+                        <li id="home"><a href="index.html">Home</a></li>
+                        <li class="active"><a class="active" href= "story.html">Story</a>
+                            <ul class="dropdown">
+                                <li><a href="story-coastal-birth.html">Tilly's Coastal Birth</a></li>
+                                <li><a href="story-reef-adventure.html">Tilly's Reef Adventure</a></li>
+                                <li class="active"><a class="active" href="story-coastal-rescue.html">Tilly's Coastal Rescue</a></li>
+                            </ul>
+                        </li>
+
+                        <!--    spacer hack   --> 
+                        <li class="spacer"></li>
+                        <li class="spacer"></li>
+
+                        <li><a href="characters.html">Characters</a></li>
+                        <li><a href="resources.html">Resources</a></li>
+                    </ul>
+                </nav>              
+
+                
+                <main class="story-slides">
+                <nav role="navigation breadcrumb" class="breadcrumb">
+                    <ul>
+                        <li><a class= href="story-coastal-birth.html">Tilly's Coastal Birth</a></li> >
+                        <li><a href="story-reef-adventure.html">Tilly's Reef Adventure</a></li> >
+                        <li class="active"><a class="active" href="story-coastal-rescue.html">Tilly's Coastal Rescue</a></li>
+                    </ul>
+                </nav>
+                        
+               
+            <!--	slideshow	-->
+            <section class="carousel-slideshow" id="story-reef-adventure">
+                    <figure class="carousel slide">
+                        <div class="numbertext">1/7</div>
+                        <img class="slideshow-img" src="img\tillysreefadventure\slide-ashore.png">
+                        <article class="slideshow-text">
+                            <h1>Tilly is washed up onto the beach... "I can't swim, I can't move..." thinks, Tilly, "How will I eat?"</h1>
+                        </article>
+                    </figure>
+
+                    <figure class="carousel slide">
+                        <div class="numbertext">2/7</div>
+                        <img class="slideshow-img" src="img\tillysreefadventure\slide-gull.png">
+                        <article class="slideshow-text">
+                            <h1>A gull lands close by... 'Help!' Tilly cries... She was exceptionally distraught, and worried.</h1>
+                        </article>
+                    </figure>
+
+                    <figure class="carousel slide">
+                        <div class="numbertext">3/7</div>
+                        <img class="slideshow-img" src="img\tillysreefadventure\slide-ch1.png">
+                        <article class="slideshow-text">
+                            <h1>A group of children moves along the beach, frightening away the gull... Will they find Tilly? Will they toss her in with the rest of the rubbish?</h1>
+                        </article>
+                    </figure>
+                    <figure class="carousel slide">
+                        <div class="numbertext">4/7</div>
+                        <img class="slideshow-img" src="img\tillysreefadventure\slide-ch2.png">
+                        <article class="slideshow-text">
+                            <h1>The children gently unwind the bag. Tilly was free!</h1>
+                        </article>
+                    </figure>
+                    <figure class="carousel slide">
+                        <div class="numbertext">5/7</div>
+                        <img class="slideshow-img" src="img\tillysreefadventure\slide-ch3.png">
+                        <article class="slideshow-text">
+                            <h1>The children gently unwind the bag. Tilly was free!</h1>
+                        </article>
+                    </figure>
+                    <figure class="carousel slide">
+                        <div class="numbertext">6/7</div>
+                        <img class="slideshow-img" src="img\tillysreefadventure\slide-back.png">
+                        <article class="slideshow-text">
+                            <h1>Without further ado, the children slip her back into the sea.Letting her back to where she belongs...</h1>
+                        </article>
+                    </figure>
+                    <figure class="carousel slide">
+                        <div class="numbertext">7/7</div>
+                        <img class="slideshow-img" src="img\tillysreefadventure\slide-colourful.png">
+                        <article class="slideshow-text">
+                            <h1> "Yippee!" Tilly cries, as she swims down quicklu... back to the rainbow-coloured reef, where her friends are waiting for her to come home.</h1>
+                        </article>
+                    </figure>
+                </section>
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>			
+                        
+            </main>
+
+            <footer>
+                <img src="img/cc-by-nc-sa.jpg" alt="Creative Commons Attribution Non-commercial Share Alike">   
+                <nav class="footer">
+                    <ul>
+                        <li><a href="https://www.rhondasart.com.au/pages/about-us">About the Author</a></li>
+                        <li><a href="#">Sitemap</a></li>
+                        <li><a href="credits.html">Credits</a></li>
+                        <!--<img src="https://png.icons8.com/ios/100/000000/chevron-down.png">
+                            <a href="https://icons8.com">Icon pack by Icons8</a>
+                        -->
+                    </ul>
+                </nav>
+            </section>
+        </div> <!--page wrap end tag-->
+         <!-- particles.js lib - https://github.com/VincentGarreau/particles.js --> 
+        <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+        <div id="particles-js"></div> <!-- particles.js container -->
+        
+        <script src="js/jquery-3.3.1.min.js"></script>
+        <!--https://zengabor.github.io/zenscroll/#license-->
+        <script src="js/zenscroll-min.js"></script>
+    
+        
+    
+        
+        <!-- stats.js lib 
+        <script src="http://threejs.org/examples/js/libs/stats.min.js"></script>
+        -->
+        
+        <script src="js/script.js"></script>
+    </body>
+</html>

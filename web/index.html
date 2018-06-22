@@ -1,0 +1,116 @@
+<!DOCTYPE html> 
+<html lang="en">
+	<head>
+        <meta charset="UTF-8">
+        
+        <!-- 
+            * sets the width of the page to follow the screen-width of the device 
+            * sets the initial zoom level when the page
+            -->
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+        
+        <title>Tilly's Reef Adventure</title>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+
+    <body>
+        <div class="page-wrap">
+			
+            <a href="#content">
+                <header role="banner" class="banner">
+                    <img id="banner-logo" src="img/tillysreefadventure/logo-banner.png" alt="Tilly's Reef Adventure banner logo">
+                </header>
+            </a>
+        
+            <section id="content">
+                <nav role="navigation" class="global" >
+                    <a href="index.html"><img id="banner-logo-nav" src="img/tillysreefadventure/logo-banner.png" alt="Tilly's Reef Adventure banner logo"></a>
+                    <ul>
+                        <li id="home" class="active"><a class="active" href="index.html">Home</a></li>
+                        <li><a href="story.html">Story</a>
+                            <ul class="dropdown">
+                                <li><a href="story-coastal-birth.html">Tilly's Coastal birth</a></li>
+                                <li><a href="story-reef-adventure.html">Tilly's Reef Adventure</a></li>
+                                <li><a href="story-coastal-rescue.html">Tilly's Coastal Rescue</a></li>
+                            </ul>
+                        </li>
+                    
+                        <!--    spacer hack   --> 
+                        <li class="spacer"></li>
+                        <li class="spacer"></li>
+
+                        <li><a href="characters.html">Characters</a></li>
+                        <li><a href="resources.html">Resources</a></li>
+                    </ul>
+                </nav>    
+                                            
+                <main class="card">
+                    <a class="cards" href="story.html">
+                        <header>
+                            <h3>Tilly the sea turtle</h3>
+                        </header>
+                        <figure class="thumb">
+                            <img src="img/tillysreefadventure/seaturtle-sm.png" alt="sea turtle">
+                            <p>I'm 1 of 7 living species of sea turtles! Read my story...</p>
+                            </figure>
+                        <div class="desc">
+                            <p>View Story   ---></p>
+                        </div> 
+                    </a>
+                
+                    <a class="cards" href="characters.html">
+                        <header>
+                            <h3>Plastic pollution</h3>
+                        </header>
+                        <figure class="thumb">
+                            <img src="img/tillysreefadventure/plastic.png" alt="plastic trapped turtle">
+                            <p>Lurking dangers threaten my survival. Learn how...</p>
+                        </figure>
+                        <div class="desc">
+                            <p>View Threats   ---></p>
+                        </div>
+                    </a>
+                                
+                    <a class="cards" href="resources.html">
+                        <header>
+                            <h3>Act now</h3>
+                        </header>
+                        <figure class="thumb">
+                            <img src="img/tillysreefadventure/lionfish-sm.png" alt="lionfish">
+                            <p>Learn some key facts & be an ocean guardian...</p>
+                        </figure>
+                        <div class="desc">
+                            <p>View Resources   ---></p>
+                        </div>
+                    </a>
+
+                </main>
+            
+                <footer>
+                    <img src="img/cc-by-nc-sa.jpg" alt="Creative Commons Attribution Non-commercial Share Alike">
+            
+                    <nav class="footer">
+                        <ul>
+                            <li><a href="https://www.rhondasart.com.au/pages/about-us">About the Author</a></li>
+                            <li><a href="credits.html">Credits</a></li>
+                            <!--<a href="https://icons8.com">Icon pack by Icons8</a>
+                            -->
+                        </ul>
+                    </nav>
+                </footer>
+            </section>
+            
+        </div> <!--page wrap end tag-->
+         <!-- particles.js lib - https://github.com/VincentGarreau/particles.js --> 
+         <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+         <div id="particles-js"></div> <!-- particles.js container -->
+         
+         <script src="js/jquery-3.3.1.min.js"></script>
+         
+         <!--https://zengabor.github.io/zenscroll/#license-->
+         <script src="js/zenscroll-min.js"></script>
+        
+         <script src="js/script.js"></script>
+    </body>
+</html>

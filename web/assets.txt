@@ -1,0 +1,5 @@
+
+use, page, fileName, source, url
+base map layer for story navigation, story.html, raine-island-landscape-mr.jpg, State of Queensland, https://www.npsr.qld.gov.au/raineisland/media/raine-island-landscape-mr.jpg
+waypoint icon, story.html, icons8-marker-96-edit.gif
+

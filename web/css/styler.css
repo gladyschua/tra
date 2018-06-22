@@ -1,0 +1,222 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  width: 100vw;
+  height: 100vh;
+  font-family: 'Raleway', Arial, Helvetica, sans-serif;
+  font-size: 14px; 
+  font-weight: 100;
+}
+
+h1 {
+  font-size: 8rem;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+a {
+  text-decoration: none;
+}
+
+.page-wrap {
+  display: grid;
+  box-sizing: border-box;
+  justify-items: center;
+  justify-content: center;
+  text-align: center;
+  overflow-x: hidden;
+}
+
+.banner {
+  grid-row:1;
+  display: block;
+  width: 100%;
+  height: 100%;
+  align-content: center;
+  text-align: center;
+  text-transform: uppercase;
+  background-image: linear-gradient(to bottom, #aaa, #eee);
+}
+
+/*
+
+#logo {
+  grid-row: 2;  
+  width: 100vw;
+  height: auto;
+}
+*/
+nav { 
+  font-family: "Raleway", Arial, Helvetica, sans-serif;
+  text-align: center;
+  position: sticky;
+  top: 0;
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  color: #fff;
+  background: rgb(25, 58, 133);
+  display: inline-block;
+  padding: 1em;
+  margin: 2px;
+  min-width: 10em;
+  position: relative;
+  text-decoration: none;
+  transition-duration: 0.5s;
+  border-radius: 10px;
+}
+
+li a {
+  color: #fff;
+}
+
+li:hover,
+li:focus-within {
+  background: rgb(9, 183, 160);
+  cursor: pointer;
+}
+
+li:focus-within a {
+  outline: none;
+}
+
+/* 1st level sub menus */
+ul li ul {
+  visibility: hidden;
+  opacity: 0;
+  position: absolute;
+  transition: all 0.5s ease;
+  margin-top: 1em;
+  display: none;
+}
+
+ul li:hover > ul,
+ul li:focus-within > ul,
+ul li ul:hover,
+ul li ul:focus {
+  visibility: visible;
+  opacity: 1;
+  display: block;
+}
+
+ul li ul li {
+  clear: both;
+  width: 100%;
+}
+
+/* 2nd level sub menus */
+ul li ul li ul {
+  visibility: hidden;
+  opacity: 0;
+  min-width: 3em;
+  position: absolute;
+  transition: all 0.5s ease;
+  margin-top: 1em;
+  display: none;
+}
+
+ul li ul li:hover > ul,
+ul li ul li:focus-within > ul,
+ul li ul li ul:hover,
+ul li ul li ul:focus {
+  visibility: visible;
+  opacity: 1;
+  display: block;
+}
+
+ul li ul li ul li{
+  clear: both;
+  width: 100%;
+}
+
+main {
+  grid-row: 4;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  grid-template-rows: auto;
+  grid-gap: 50px;
+  text-align: center;
+  justify-items: center;
+  width: 1140px;
+  align-content: space-evenly;
+}
+
+.card {
+  display: table;
+  border-radius: 8px;
+  max-width: 80%;
+  background-color: rgb(255, 255, 255);
+  border: 5px solid rgba(0, 0, 0, 0.05);
+  box-shadow: 4px 8px 15px rgba(0, 0, 0, 0.2);
+  transition: 1s;
+}
+
+.card:hover {
+  box-shadow: 4px 8px 15px rgba(0, 0, 0, 0.7);
+  transition: 0.2s ease-in-out;
+  transform: rotate(3deg);
+}
+
+header:not(.banner) > p {
+  padding: 10px 20px;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 1em;
+  font-weight: 400;
+  width: 80%;
+  background-color: rgba(232, 62, 62, 1);
+  justify-content: center;
+  text-align: center;
+  border-width: border-box;
+  transition: 1s;
+}
+
+.card:hover > header:not(.banner) > p {
+  background-color: rgba(255, 205, 102, 1);
+  color: rgb(0, 0, 0);
+  font-weight: 500;
+  transition: 0.2s ease-in-out;
+  justify-content: center;
+  text-align: center;
+  padding: 10px 20px;
+  width: 85%;
+}
+
+.thumb > p {
+  font-size: 0.6em;
+  font-weight: 400;
+  line-height: 1.2em;
+  padding: 2px 30px 10px;
+}
+
+.thumb > img {
+  display: flex;
+  max-width: 250px;
+  padding: 0 0 0 5%;
+}
+
+.desc > p {
+  font-size: 0.7em;
+  font-weight: 600;
+  color: rgb(232, 62, 62);
+  border-top: 5px dotted rgba(0, 0, 0, 0.05);
+  padding: 10px 0;
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 1)
+}

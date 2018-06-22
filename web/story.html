@@ -1,0 +1,108 @@
+<!DOCTYPE html> 
+<html lang="en">
+	<head>
+        <meta charset="UTF-8">
+        
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+        <!-- 
+            * sets the width of the page to follow the screen-width of the device 
+            * sets the initial zoom level when the page
+            -->
+        
+        <title>Tilly's Reef Adventure</title>
+        <link href="https://fonts.googleapis.com/css?family=Raleway:100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+        <link rel="stylesheet" href="css/style.css">
+		
+    </head>
+    <body>
+        <div class="page-wrap">
+			
+            <a href="#content">
+                <header role="banner" class="banner">
+                    <img id="banner-logo" src="img/tillysreefadventure/logo-banner.png" alt="Tilly's Reef Adventure banner logo">
+                    
+                </header>
+            </a>
+			
+            <section id="content">
+                <nav role="navigation" class="global" >
+                    <a href="index.html"><img id="banner-logo-nav" src="img/tillysreefadventure/logo-banner.png" alt="Tilly's Reef Adventure banner logo"></a>
+                    <ul>
+                        <li id="home"><a href="index.html">Home</a></li>
+                        <li class="active"><a class="active" href="story.html">Story</a>
+                            <ul class="dropdown">
+                                <li><a href="story-coastal-birth.html">Tilly's Coastal Birth</a></li>
+                                <li><a href="story-reef-adventure.html">Tilly's Reef Adventure</a></li>
+                                <li><a href="story-coastal-rescue.html">Tilly's Coastal Rescue</a></li>
+                            </ul>
+                        </li>
+
+                        <!--    spacer hack   --> 
+                        <li class="spacer"></li>
+                        <li class="spacer"></li>
+
+                        <li><a href="characters.html">Characters</a></li>
+                        <li><a href="resources.html">Resources</a></li>
+                    </ul>
+                </nav>    
+                                           
+              
+            <main class="story">
+                
+                <aside>
+                    <img class="avatar" src="img/tillysreefadventure/seaturtle-avatar.png" alt="sea turtle">
+                    <h2 id="figure-caption">Synopsis</h2>
+                    <figure class="speech-bubble">
+                        <p>Upon hatching from the egg, I scuttled across the beach towards the sea. I had a wonderful time experiencing the amazing reef, but soon enough, I learnt that there are dangers lurking in every corner... In fact, I had mistaken marine debris for food while hunting for sea jellies- It was frightening and horrible! I was starving for days as I couldn't dive to hunt for food... Scientists call it the '<a href="http://www.environment.gov.au/marine/gbr/case-studies/turtle-hospital" class="tooltip" content="Floating syndrome is caused by a build up of gas in the turtle’s body, which can happen after the ingestion of marine debris that blocks its gastrointestinal tracts and prevents food being properly digested -- Click to find out more from the Department of the Environment and Energy">floating syndrome</a>'.</p> <br>
+                        <p>Use the map on the right to follow me on my journey and learn more as I recount my steps!</p>
+                    </figure>
+                </aside>
+                
+                <figure class="story-map">
+                    <ul id="map">
+                        <!--inspired by DECO7140 lecture content by Matthew Luscombe-->
+                        <li class="station birth">
+                            <a href="story-coastal-birth.html"><img class="waypoint" src="img/icons8/icons8-marker-96-edit.gif" alt="waypoint"><h5>Tilly's coastal birth</h5></a>
+                        </li>
+            
+                        <li class="station reef">
+                            <a href="story-reef-adventure.html"><img class="waypoint" src="img/icons8/icons8-marker-96-edit.gif" alt="waypoint"><h5>Tilly's reef adventure</h5></a>
+                        </li>
+            
+                        <li class="station rescue">
+                            <a href="story-coastal-rescue.html"><img class="waypoint" src="img/icons8/icons8-marker-96-edit.gif" alt="waypoint"><h5>Tilly's coastal rescue</h5></a>
+                        </li>
+            
+                    </ul>
+                </figure>
+                        
+            </main>
+            <footer>
+                <img src="img/cc-by-nc-sa.jpg" alt="Creative Commons Attribution Non-commercial Share Alike">
+                <nav class="footer">
+                    <ul>
+                        <li><a href="https://www.rhondasart.com.au/pages/about-us">About the Author</a></li>
+                        <li><a href="credits.html">Credits</a></li>
+                        <!--<a href="https://icons8.com">Icon pack by Icons8</a>
+                        -->
+                    </ul>
+                </nav>
+            </footer>
+        </section>
+    </div> <!--page wrap end tag-->
+        
+    <!-- particles.js lib - https://github.com/VincentGarreau/particles.js --> 
+    <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <div id="particles-js"></div> <!-- particles.js container -->
+    
+    <!-- http://nnattawat.github.io/flip/ -->
+    <script src="js/jquery.flip.min.js"></script>
+    
+    <script src="js/jquery-3.3.1.min.js"></script>
+    
+    <!--https://zengabor.github.io/zenscroll/#license-->
+    <script src="js/zenscroll-min.js"></script>
+    
+    <script src="js/script.js"></script>
+</body>
+</html>
