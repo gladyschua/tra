@@ -1,95 +1,38 @@
-<!DOCTYPE html> 
-<html lang="en">
-	<head>
-        <meta charset="UTF-8">
-        
-        <!-- 
-            * sets the width of the page to follow the screen-width of the device 
-            * sets the initial zoom level when the page
-            -->
-        <meta content="width=device-width, initial-scale=1.0" name="viewport">
-        
-        <title>Tilly's Reef Adventure</title>
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i">
-        <link rel="stylesheet" href="css/style.css">
-    </head>
+# Tilly's Reef Adventure- a web adaptation
 
-    <body>
-        <div class="page-wrap">
-			
-            <a href="#content">
-                <header role="banner" class="banner">
-                    <img id="banner-logo" src="img/tillysreefadventure/logo-banner.png" alt="Tilly's Reef Adventure banner logo">
-                </header>
-            </a>
-        
-            <section id="content">
-            <nav role="navigation" class="global" >
-                <a href="index.html"><img id="banner-logo-nav" src="img/tillysreefadventure/logo-banner.png" alt="Tilly's Reef Adventure banner logo"></a>
-                <ul>
-                    <li id="home"><a href="index.html">Home</a></li>
-                    <li><a href="story.html">Story</a>
-                        <ul class="dropdown">
-                            <li><a href="story-coastal-birth.html">Tilly's Coastal birth</a></li>
-                            <li><a href="story-reef-adventure.html">Tilly's Reef Adventure</a></li>
-                            <li><a href="story-coastal-rescue.html">Tilly's Coastal Rescue</a></li>
-                        </ul>
-                    </li>
-                   
-                    <!--    spacer hack   --> 
-                    <li class="spacer"></li>
-                    <li class="spacer"></li>
+Final design implementation of DECO7140 Web Design course at the University of Queensland.
+Brief: Find books (for children aged 12 years and below) that you hold a particular affection for and adapt it into an interactive website based on W3C guidelines & HTML5.
 
-                    <li><a href="characters.html">Characters</a></li>
-                    <li><a href="resources.html">Resources</a></li>
-                </ul>
-            </nav>    
-                                           
-            <main class="credits">
-                <h1>Credits</h1>
-                <ul>
-                    <li>    Story & Illustrations: Originals by Rhonda N. Garward, Edits by Gladys C. <br>
-                            [1] R. Garward, Tilly's reef adventure, 1st ed. NLA Publishing, 2017.</li>
-                    <li>    Background animation: Particles JavaScript library by Vincent Garreau, Edits & modifications by Gladys C. <br>
-                            [2] V. Garreau, "particles.js - A lightweight JavaScript library for creating particles", particles.js, 2018. [Online]. Available: https://vincentgarreau.com/particles.js/. [Accessed: 28- May- 2018].</li>
-                    <li>    Some resource links and their corresponding embedded media are by the <a href="https://www.genanthro.com/">Generation Anthropocene team at Stanford University</a>. They use SoundCloud to distribute their media, with embedding and local download enabled- <a href="https://soundcloud.com/terms-of-use#grant-of-license">users of SoundCloud are granted the limited, worldwide, non-exclusive, royalty-free, fully paid-up licence</a>.<br>
-                            [3] "Stories and conversations about planetary change.", Generation Anthropocene, 2018. [Online]. Available: https://www.genanthro.com/. [Accessed: 1- Jun- 2018].</li>
-                    <li>    Some resource links and their corresponding image screencaps are by the National Oceanographic and Atmospheric Administration (<a href="https://marinedebris.noaa.gov/multimedia">NOAA</a>). All resources that are credited to the NOAA are in the public domain and are free to use.<br>
-                            [4] "NOAA Marine Debris Program", Marinedebris.noaa.gov, 2018. [Online]. Available: https://marinedebris.noaa.gov/. [Accessed: 10- Jun- 2018].</li>
-                    <li>    The <a hre="http://unesdoc.unesco.org/images/0026/002607/260721E.pdf">Ocean Literacy For All: A Toolkit</a> publication is available in Open Access under the Attribution-ShareAlike 3.0 IGO (<a href="http://creativecommons.org/licenses/by-sa/3.0/igo/">CC-BY-SA 3.0 IGO</a>)
-                            license. By using the content of this publication, the
-                            users accept to be bound by the terms of use of the <a href="http://www.unesco.org/open-access/terms-use-ccbysa-en">UNESCO Open Access Repository</a>.<br>
-                            [5]Unesdoc.unesco.org, 2018. [Online]. Available: http://unesdoc.unesco.org/images/0026/002607/260721E.pdf. [Accessed: 5- Jun- 2018].</li>
-                    <li>    Photo of Raine Island, Australia by BioPixel & Queensland Government. Image is licensed by Creative Commons Attribution License. <br>
-                            [6] D. Recreation, "Raine Island Recovery Project", Npsr.qld.gov.au, 2018. [Online]. Available: https://www.npsr.qld.gov.au/raineisland/. [Accessed: 10- Jun- 2018].</li>
-                    <li>    Coding tips and tricks by DECO7140 staff members</li>
-                    <li>    <a href="https://icons8.com">Icon pack by Icons8</a></li>
-                </ul>
-            </main>
-            
-            <footer>
-                <img src="img/cc-by-nc-sa.jpg" alt="Creative Commons Attribution Non-commercial Share Alike">
-        
-                <nav class="footer">
-                    <ul>
-                        <li><a href="https://www.rhondasart.com.au/pages/about-us">About the Author</a></li>
-                        <li class="active"><a class="active" href="credits.html">Credits</a></li>
-            
-                    </ul>
-                </nav>
-            </footer>
-        </section>
-        </div> <!--page wrap end tag-->
-        
-        <!-- particles.js lib - https://github.com/VincentGarreau/particles.js --> 
-        <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
-        <div id="particles-js"></div> <!-- particles.js container -->
-        
-        <script src="js/jquery-3.3.1.min.js"></script>
-        
-        <!--https://zengabor.github.io/zenscroll/#license-->
-        <script src="js/zenscroll-min.js"></script>
-       
-        <script src="js/script.js"></script>
-    </body>
-</html>
+## Contributing
+
+Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
+
+## Versioning
+
+We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
+
+## Authors
+
+* **Gladys Chua** - *Initial work* - [gladyschua](https://github.com/gladyschua)
+* **Rhonda N. Garward** - *Illustrator & Writer* (https://www.rhondasart.com.au/pages/about-us)
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+
+## Acknowledgments
+
+* Story & Illustrations: Originals by Rhonda N. Garward, Edits by Gladys C. <br>
+  [1] R. Garward, Tilly's reef adventure, 1st ed. NLA Publishing, 2017.</li>
+* Background animation: Particles JavaScript library by Vincent Garreau, Edits & modifications by Gladys C. <br>
+  [2] V. Garreau, "particles.js - A lightweight JavaScript library for creating particles", particles.js, 2018. [Online]. Available: https://vincentgarreau.com/particles.js/. [Accessed: 28- May- 2018].
+* Some resource links and their corresponding embedded media are by the <a href="https://www.genanthro.com/">Generation Anthropocene team at Stanford University</a>. They use SoundCloud to distribute their media, with embedding and local download enabled- <a href="https://soundcloud.com/terms-of-use#grant-of-license">users of SoundCloud are granted the limited, worldwide, non-exclusive, royalty-free, fully paid-up licence</a>.<br>
+  [3] "Stories and conversations about planetary change.", Generation Anthropocene, 2018. [Online]. Available: https://www.genanthro.com/. [Accessed: 1- Jun- 2018].
+* Some resource links and their corresponding image screencaps are by the National Oceanographic and Atmospheric Administration (<a href="https://marinedebris.noaa.gov/multimedia">NOAA</a>). All resources that are credited to the NOAA are in the public domain and are free to use.<br>
+  [4] "NOAA Marine Debris Program", Marinedebris.noaa.gov, 2018. [Online]. Available: https://marinedebris.noaa.gov/. [Accessed: 10- Jun- 2018].
+* The <a hre="http://unesdoc.unesco.org/images/0026/002607/260721E.pdf">Ocean Literacy For All: A Toolkit</a> publication is available in Open Access under the Attribution-ShareAlike 3.0 IGO (<a href="http://creativecommons.org/licenses/by-sa/3.0/igo/">CC-BY-SA 3.0 IGO</a> license. By using the content of this publication, the users accept to be bound by the terms of use of the <a href="http://www.unesco.org/open-access/terms-use-ccbysa-en">UNESCO Open Access Repository</a>.<br>
+  [5]Unesdoc.unesco.org, 2018. [Online]. Available: http://unesdoc.unesco.org/images/0026/002607/260721E.pdf. [Accessed: 5- Jun- 2018]
+* Photo of Raine Island, Australia by BioPixel & Queensland Government. Image is licensed by Creative Commons Attribution License.
+  [6] D. Recreation, "Raine Island Recovery Project", Npsr.qld.gov.au, 2018. [Online]. Available: https://www.npsr.qld.gov.au/raineisland/. [Accessed: 10- Jun- 2018].
+* Coding tips and tricks by DECO7140 staff members
+* <a href="https://icons8.com">Icon pack by Icons8</a>
