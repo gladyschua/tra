@@ -7,13 +7,9 @@ Brief: Find books (for children aged 12 years and below) that you hold a particu
 
 Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
 
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
-
 ## Authors
 
-* **Gladys Chua** - *Initial work* - [gladyschua](https://github.com/gladyschua)
+* **Gladys Chua** - *Initial work [v1.0]* - [gladyschua](https://github.com/gladyschua)
 * **Rhonda N. Garward** - *Illustrator & Writer* (https://www.rhondasart.com.au/pages/about-us)
 
 ## License
@@ -33,6 +29,7 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 * The <a hre="http://unesdoc.unesco.org/images/0026/002607/260721E.pdf">Ocean Literacy For All: A Toolkit</a> publication is available in Open Access under the Attribution-ShareAlike 3.0 IGO (<a href="http://creativecommons.org/licenses/by-sa/3.0/igo/">CC-BY-SA 3.0 IGO</a> license. By using the content of this publication, the users accept to be bound by the terms of use of the <a href="http://www.unesco.org/open-access/terms-use-ccbysa-en">UNESCO Open Access Repository</a>.<br>
   [5]Unesdoc.unesco.org, 2018. [Online]. Available: http://unesdoc.unesco.org/images/0026/002607/260721E.pdf. [Accessed: 5- Jun- 2018]
 * Photo of Raine Island, Australia by BioPixel & Queensland Government. Image is licensed by Creative Commons Attribution License.
+  
   [6] D. Recreation, "Raine Island Recovery Project", Npsr.qld.gov.au, 2018. [Online]. Available: https://www.npsr.qld.gov.au/raineisland/. [Accessed: 10- Jun- 2018].
 * Coding tips and tricks by DECO7140 staff members
 * <a href="https://icons8.com">Icon pack by Icons8</a>
