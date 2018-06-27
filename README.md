@@ -1,12 +1,15 @@
 # Tilly's Reef Adventure- a web adaptation
 
 Final design implementation of DECO7140 Web Design course at the University of Queensland.
-Brief: Find books (for children aged 12 years and below) that you hold a particular affection for and adapt it into an interactive website based on W3C guidelines & HTML5.
+
+## Brief
+
+Find books (for children aged 12 years and below) that you hold a particular affection for and adapt it into an interactive website based on W3C guidelines & HTML5.
 
 ## Authors
 
-* **Gladys Chua** - *Initial work [v1.0]* - [gladyschua](https://github.com/gladyschua)
-* **Rhonda N. Garward** - *Illustrator & Writer* (https://www.rhondasart.com.au/pages/about-us)
+* **Gladys Chua** - *Initial work [v1.0]* - [GitHub](https://github.com/gladyschua) | Find out more about my other involvements over at [my website](https://seasteading.wordpress.com/)
+* **Rhonda N. Garward** - *Illustrator & Writer* [Author's website](https://www.rhondasart.com.au/pages/about-us)
 
 ## License
 
