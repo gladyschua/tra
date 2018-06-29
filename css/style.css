@@ -1321,7 +1321,7 @@ h5 {
     main.story {
         z-index: 2;
         display: grid; 
-        grid-template-columns: 1fr 25% 55% 1fr;
+        grid-template-columns: 1fr 400px 45% 1fr;
         grid-template-rows: 1fr;
         grid-column-gap: 20px;
         box-align: center;
