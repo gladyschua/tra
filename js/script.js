@@ -8,7 +8,17 @@ $(document).ready(function() {
         $('.banner, #banner-logo, nav, footer').toggleClass('scroll', $(document).scrollTop() > 0);
         $('nav, footer').css('opacity', '1');
     });
-
+    
+    //Disable full page cut, copy, paste
+    $('body').bind('cut copy paste', function (e) {
+        e.preventDefault();
+    });
+   
+    //Disable mouse right click
+    $("body").on("contextmenu",function(e){
+        return false;
+    });
+	
     //Modal Popup
     //$("#testimonials .read-more a, #testimonials-popup .close-button a").click(function(event) {
     //$("body").toggleClass("show-testimonials-popup");
