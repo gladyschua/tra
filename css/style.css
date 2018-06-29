@@ -899,7 +899,6 @@ h5 {
     .page-wrap {
         margin: 0 auto;
         max-width: 1680px;
-        position: absolute;
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: auto; 
